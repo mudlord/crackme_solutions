@@ -1,0 +1,4 @@
+LIBRARY "dsound"
+EXPORTS
+DirectSoundCreate = DirectSoundCreate @1
+DirectSoundCreate8 = DirectSoundCreate8 @11

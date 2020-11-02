@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keygen", "keygen.vcxproj", "{30434B43-3A90-4FB1-9DB5-124FCFA85641}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30434B43-3A90-4FB1-9DB5-124FCFA85641}.Debug|x86.ActiveCfg = Debug|Win32
+		{30434B43-3A90-4FB1-9DB5-124FCFA85641}.Debug|x86.Build.0 = Debug|Win32
+		{30434B43-3A90-4FB1-9DB5-124FCFA85641}.Release|x86.ActiveCfg = Release|Win32
+		{30434B43-3A90-4FB1-9DB5-124FCFA85641}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E04039B2-91E7-4DCA-B77B-02DDDDF0A32F}
+	EndGlobalSection
+EndGlobal

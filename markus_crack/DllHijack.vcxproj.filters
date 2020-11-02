@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\DllLoader.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PatchUtil.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\src\buffer.c">
+      <Filter>Source File\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\src\hook.c">
+      <Filter>Source File\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\src\trampoline.c">
+      <Filter>Source File\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\src\hde\hde32.c">
+      <Filter>Source File\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\src\hde\hde64.c">
+      <Filter>Source File\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DoPatch.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Common.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DoPatch.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DllLoader.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="src\_EXP_Control.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PatchUtil.h">
+      <Filter>Source File</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\src\buffer.h">
+      <Filter>Source File\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\src\trampoline.h">
+      <Filter>Source File\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\src\hde\hde32.h">
+      <Filter>Source File\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\src\hde\hde64.h">
+      <Filter>Source File\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\src\hde\pstdint.h">
+      <Filter>Source File\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\src\hde\table32.h">
+      <Filter>Source File\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\src\hde\table64.h">
+      <Filter>Source File\minhook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header File">
+      <UniqueIdentifier>{9a5049c8-860d-4c48-b380-8ca5f84bb9f9}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source File">
+      <UniqueIdentifier>{ff255197-bd4e-4cda-b58a-dbd3ee162358}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source File\minhook">
+      <UniqueIdentifier>{c3f8240f-22ae-4c90-84df-e06cb1f09b5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
